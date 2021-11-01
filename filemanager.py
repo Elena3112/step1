@@ -1,0 +1,5 @@
+r =open("data.txt","w")
+r.write("this is not file")
+r.close()
+rb=open("data.txt","r")
+print(rb.read())
